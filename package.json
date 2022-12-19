@@ -1,0 +1,21 @@
+{
+     "name": "data-mining-08",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "echo \"No build specified\" && exit 1",
+        "test": "echo \"No test specified\" && exit 1",
+        "start": "flask run"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/anjuucoklubis/data-mining-08.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/anjuucoklubis/data-mining-08/issues"
+    },
+    "homepage": "https://github.com/anjuucoklubis/data-mining-08#readme"
+}
+ 
