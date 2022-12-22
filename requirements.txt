@@ -11,5 +11,4 @@ scikit-learn==1.0.2
 tensorflow==2.10.0
 tensorflow-estimator==2.10.0
 tensorflow-io-gcs-filesystem==0.28.0
-keras==2.11.0
 pip===22.3.1
