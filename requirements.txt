@@ -8,4 +8,8 @@ MarkupSafe==2.1.1
 Werkzeug==2.2.2
 zipp==3.10.0
 scikit-learn==1.0.2
-tensorflow>=1.6.0
+tensorflow==2.11.0
+tensorflow-estimator==2.11.0
+tensorflow-intel==2.11.0
+tensorflow-io-gcs-filesystem==0.28.0
+keras==2.11.0
