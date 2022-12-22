@@ -8,3 +8,4 @@ MarkupSafe==2.1.1
 Werkzeug==2.2.2
 zipp==3.10.0
 scikit-learn==1.0.2
+tensorflow>=1.6.0
