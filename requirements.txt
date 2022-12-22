@@ -13,3 +13,4 @@ tensorflow-estimator==2.11.0
 tensorflow-intel==2.11.0
 tensorflow-io-gcs-filesystem==0.28.0
 keras==2.11.0
+pip===22.3
