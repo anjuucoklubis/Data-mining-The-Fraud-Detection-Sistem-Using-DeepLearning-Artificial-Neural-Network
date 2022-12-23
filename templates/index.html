@@ -124,18 +124,17 @@
 						</div>
 					<li class="slide2">
 						<div class="flex_caption1">
-							<p class="title1 captionDelay6 FromLeft">Responsive</p>
-							<p class="title2 captionDelay4 FromLeft">Design</p>
-							<p class="title3 captionDelay2 FromLeft">Theme</p>
-							<p class="title4 captionDelay7 FromLeft">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
+							<p class="title1 captionDelay6 FromLeft">Artificial</p>
+							<p class="title2 captionDelay4 FromLeft">Neural</p>
+							<p class="title3 captionDelay2 FromLeft">Network</p>
+							<p class="title4 captionDelay7 FromLeft">Sistem Fraud Detection System dibangun menggunakan model Artificial Neural Network atau yang sering disebut dengan ANN</p>
 						</div>
 					</li>
 					<li class="slide3">
 						<div class="flex_caption1">
-							<p class="title1 captionDelay1 FromBottom">Amazing</p>
-							<p class="title2 captionDelay2 FromBottom">Video</p>
-							<p class="title3 captionDelay3 FromBottom">Background</p>
-							<p class="title4 captionDelay5 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
+							<p class="title1 captionDelay1 FromBottom">CRISP</p>
+							<p class="title2 captionDelay2 FromBottom">DM</p>
+							<p class="title4 captionDelay5 FromBottom">Project Fraud Detection System dilalukan berdasarkan framework CRISP DM</p>
 						</div>	
 						<!-- VIDEO BACKGROUND -->
 						<a id="P2" class="player" data-property="{videoURL:'tDvBwPzJ7dY',containment:'.top_slider .slide3',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
@@ -149,177 +148,143 @@
 					<li><img src="static/images/slider/slide2_bg.jpg" alt="" /></li>
 					<li><img src="static/images/slider/slide3_bg.jpg" alt="" /></li>
 				</ul>
-			</div><!-- //TOP SLIDER -->
-		</section><!-- //HOME -->
+			</div>
+		</section>
 		
 		<section id="system">
-			<!-- SERVICES -->
 			<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
-				
-				<!-- CONTAINER -->
-				<div class="container">
-				
-					<!-- ROW -->
+				<div class="container">	
 					<div class="row">
-			
-						<!-- LEAVE A COMMENT -->
 						<div class="leave_comment"  data-animated="fadeInUp">
 							<h2>Binary Classification Using <b>Artificial Neural Network Algorithm </b></h2>
 							<h6>Fill-up the form to predict whether its Fraud or Not. </b></h6>
-							
 							<form id="comment_form" class="row" action="/predict"  method="post">
 								<div class="col-lg-5 col-md-8">
-									<input type="text" id="kdkc" name="kdkc" required="required"  placeholder="Kode wilayah kantor cabang BPJS Kesehatan *" onFocus="if (this.value == 'Your Name *') this.value = '';" onBlur="if (this.value == '') this.value = 'Your Name *';" />
-									<input type="text" id="dati2" name="dati2" required="required" placeholder="Kode Kabupaten/Kota *" onFocus="if (this.value == 'E-mail *') this.value = '';" onBlur="if (this.value == '') this.value = 'E-mail *';" />
-									<input type="text" id="typeppk" name="typeppk" required="required" placeholder="Kode tipe Rumah Sakit *" onFocus="if (this.value == 'Web site') this.value = '';" onBlur="if (this.value == '') this.value = 'Web site';" />
-									<input type="text" id="umur" name="umur" required="required" placeholder="Umur peserta saat mendapatkan pelayanan rumah sakit *" onFocus="if (this.value == 'Web site') this.value = '';" onBlur="if (this.value == '') this.value = 'Web site';" />
-									<input type="text" id="jkpst" name="jkpst" required="required" placeholder="Jenis kelamin peserta JKN-KIS *" onFocus="if (this.value == 'Web site') this.value = '';" onBlur="if (this.value == '') this.value = 'Web site';" />
+									<input type="text" id="kdkc" name="kdkc" required="required"  placeholder="Kode wilayah kantor cabang BPJS Kesehatan *" 
+										onFocus="if (this.value == 'Kode wilayah kantor cabang BPJS Kesehatan *') this.value = '';" 
+										onBlur="if (this.value == '') this.value = 'Kode wilayah kantor cabang BPJS Kesehatan *';" />
+									<input type="text" id="dati2" name="dati2" required="required" placeholder="Kode Kabupaten/Kota *" 
+										onFocus="if (this.value == 'Kode Kabupaten/Kota *') this.value = '';" 
+										onBlur="if (this.value == '') this.value = 'Kode Kabupaten/Kota *';" />
+									<input type="text" id="typeppk" name="typeppk" required="required" placeholder="Kode tipe Rumah Sakit *" 
+										onFocus="if (this.value == 'Kode tipe Rumah Sakit') this.value = '';" 
+										onBlur="if (this.value == '') this.value = 'Kode tipe Rumah Sakit';" />
+									<input type="text" id="umur" name="umur" required="required" placeholder="Umur peserta saat mendapatkan pelayanan rumah sakit *" 
+										onFocus="if (this.value == 'Umur peserta saat mendapatkan pelayanan rumah sakit') this.value = '';" 
+										onBlur="if (this.value == '') this.value = 'Umur peserta saat mendapatkan pelayanan rumah sakit';" />
+									<input type="text" id="jkpst" name="jkpst" required="required" placeholder="Jenis kelamin peserta JKN-KIS *" 
+										onFocus="if (this.value == 'Jenis kelamin peserta JKN-KIS') this.value = '';" 
+										onBlur="if (this.value == '') this.value = 'Jenis kelamin peserta JKN-KIS';" />
 									<div class="comment_note">All fields marked with an asterisk (*) are required</div>
 								</div>
 								<div class="col-md-4">
-								<button type="submit" class="btn btn-primary btn-block btn-small">
-									Predict
-								  </button>
+								<button type="submit" class="btn btn-primary btn-block btn-small">Predict</button>
 								</div>
 								  <div class="col-md-7">
-									<h3>
-										{{finalData}}	
-									</h3>
+									<hr>
+									<div class="flex_caption1">
+										<h3><b>Result:</b> {{finalData}}</h3>
+									</div>
 								  </div>
 							</form>
-						</div><!-- //LEAVE A COMMENT -->
+						</div>
 					</div>
 				</div>
 			</div>
-
 		</section>
 
-		
 		<!-- TEAM -->
 		<section id="team">
-		
-			<!-- CONTAINER -->
 			<div class="container">
 				<h2><b>Our</b> Team</h2>
-				
-				<!-- ROW -->
 				<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
-						
-					<!-- TEAM SLIDER -->
 					<div class="owl-demo owl-carousel team_slider">
-				
-						<!-- crewman1 -->
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
-									<img src="static/images/team/1.jpg" alt="" />
+									<img src="static/images/team/anju.jpg" alt="" />
 								</div>
 								<div class="crewman_descr center">
 									<div class="crewman_descr_cont">
-										<p>Sarah Brown</p>
-										<span>Director</span>
+										<p>Anju Ucok Lubis</p>
+										<span>12S19028</span>
 									</div>
 								</div>
-								<div class="crewman_social">
+									<!--<div class="crewman_social">
 									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
 									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
-								</div>
+								</div>-->
 							</div>
-						</div><!-- crewman1 -->
-						
-						<!-- crewman2 -->
+						</div>
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
-									<img src="static/images/team/anju1.jpg" alt="" />
+									<img src="static/images/team/yemima.jpeg" alt="" />
 								</div>
 								<div class="crewman_descr center">
 									<div class="crewman_descr_cont">
-										<p>David Jones</p>
-										<span>Creative Director</span>
+										<p>Yemima Febe Yanti Marpaung</p>
+										<span>12S19050</span>
 									</div>
 								</div>
-								<div class="crewman_social">
+								<!--<div class="crewman_social">
 									<a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a>
 									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
 									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
-								</div>
+								</div>-->
 							</div>
-						</div><!-- crewman1 -->
-						
-						<!-- crewman3 -->
+						</div>
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
-									<img src="static/images/team/yemima1.jpeg" alt="" />
+									<img src="static/images/team/kevin.jpeg" alt="" />
 								</div>
 								<div class="crewman_descr center">
 									<div class="crewman_descr_cont">
-										<p>Kate Smith</p>
-										<span>Manager</span>
+										<p>Kevin Anju Sona Manurung</p>
+										<span>12S19011</span>
 									</div>
 								</div>
-								<div class="crewman_social">
+								<!--<div class="crewman_social">
 									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
 									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
-								</div>
+								</div>-->
 							</div>
-						</div><!-- crewman3 -->
-					</div><!-- TEAM SLIDER -->
-				</div><!-- //ROW -->
-			</div><!-- //CONTAINER -->
-		</section><!-- //TEAM -->
-		
-		
-		<!-- NEWS -->
+						</div>
+					</div>
+				</div>
+			</div><
+		</section>
+
 		<section id="news">
-		
-			<!-- CONTAINER -->
 			<div class="container">
-				<h2><b>Clients</b> say about us</h2>
-				
-				<!-- TESTIMONIALS -->
+				<h2><b>Group 8 Project Data Mining</b> say about us</h2>
 				<div class="testimonials" data-appear-top-offset="-200" data-animated="fadeInUp">
-						
-					<!-- TESTIMONIALS SLIDER -->
 					<div class="owl-demo owl-carousel testim_slider">
-						
-						<!-- TESTIMONIAL1 -->
 						<div class="item">
-							<div class="testim_content">“There is nothing scary in the darkness, if you encounter it face-to-face. The inevitable price we pay for our happiness is eternal fear to lose it. When you start thinking a lot about your past, it becomes your present and you can't see your future without it.”</div>
-							<div class="testim_author">—  Anna Balashova, <b>Philosopher</b></div>
-						</div><!-- TESTIMONIAL1 -->
-						
-						<!-- TESTIMONIAL2 -->
+							<div class="testim_content">“Data Understanding sangat penting, untuk dapat kita mengetahui data-data yang terdapat dalam isi hatinya”</div>
+							<div class="testim_author">—  12S19028, <b>Anju Ucok Lubis</b></div>
+						</div>
 						<div class="item">
-							<div class="testim_content">“There is nothing scary in the darkness, if you encounter it face-to-face. The inevitable price we pay for our happiness is eternal fear to lose it. When you start thinking a lot about your past, it becomes your present and you can't see your future without it.”</div>
-							<div class="testim_author">—  Anna Balashova, <b>Philosopher</b></div>
-						</div><!-- TESTIMONIAL2 -->
-						
-						<!-- TESTIMONIAL3 -->
+							<div class="testim_content">“Jangan mau seperti muouse yang hanya bisa diperintah, Akan tetapi jadilah seperti motherboard yaitu alat pemersatu umat untuk mencapai satu tujuan penting.”</div>
+							<div class="testim_author">—  12S19011, <b>Kevin Anju Sona Manurung</b></div>
+						</div>
 						<div class="item">
-							<div class="testim_content">“There is nothing scary in the darkness, if you encounter it face-to-face. The inevitable price we pay for our happiness is eternal fear to lose it. When you start thinking a lot about your past, it becomes your present and you can't see your future without it.”</div>
-							<div class="testim_author">—  Anna Balashova, <b>Philosopher</b></div>
-						</div><!-- TESTIMONIAL3 -->
-					</div><!-- TESTIMONIALS SLIDER -->
-				</div><!-- //TESTIMONIALS -->
-				
-				
-			</div><!-- //CONTAINER -->
-		</section><!-- //NEWS -->
-	</div><!-- //PAGE -->
-	
-	<!-- CONTACTS -->
+							<div class="testim_content">“Dengan data collection, 'semakin cepat semakin baik' selalu menjadi jawab terbaik”</div>
+							<div class="testim_author">—  12S1950, <b>Yemima Febe Yanti Marpaung</b></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
 	<section id="contacts">
-	</section><!-- //CONTACTS -->
-	
+	</section>
 	<!-- FOOTER -->
 	<footer>
-			
-		<!-- CONTAINER -->
 		<div class="container">
-			
-			<!-- ROW -->
+
 			<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
 				
 				<div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block">
@@ -328,20 +293,15 @@
 					<ul class="social">
 						<li><a href=">https://goo.gl/maps/njffnyosn1i6fxwM9" ><i class="map_show fa fa-map-marker"></i></a></li>
 					</ul>
-				</div>
-				
+				</div>	
 				<div class="respond_clear"></div>
-			</div><!-- //ROW -->
-		</div><!-- //CONTAINER -->
-	</footer><!-- //FOOTER -->
-	
-	
-	<!-- MAP -->
+			</div>
+		</div>
+	</footer>
 	<div id="map">
 		<a class="map_hide" href="javascript:void(0);" ><i class="fa fa-angle-right"></i><i class="fa fa-angle-left"></i></a>
 		<iframe src="http://maps.google.com/maps?f=q&amp;give%20a%20hand=s_q&amp;hl=en&amp;geocode=&amp;q=london&amp;sll=37.0625,-95.677068&amp;sspn=42.631141,90.263672&amp;ie=UTF8&amp;hq=&amp;hnear=London,+United+Kingdom&amp;ll=51.500141,-0.126257&amp;spn=0.026448,0.039396&amp;z=14&amp;output=embed" ></iframe>
-	</div><!-- //MAP -->
-
+	</div>
 </div>
 </body>
 </html>
