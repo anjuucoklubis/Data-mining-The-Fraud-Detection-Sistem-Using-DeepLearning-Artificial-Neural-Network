@@ -2,8 +2,6 @@ from flask import Flask, render_template, request, redirect
 import pickle
 import sklearn
 import numpy as np
-import tensorflow as tf
-from tensorflow import keras
 
 app = Flask(__name__)
 
